@@ -1,21 +1,6 @@
 Java SPI Tests
 ==============
 
-**Table of contents**:
-
-1. [Intro](#Intro)
-2. [SPI](#SPI)
-3. [Modules](#Modules)
-4. [Core](#Core)
-5. [Features](#Features)
-    * [feature-api](#feature-api)
-    * [feature-implementations](#feature-implementations)
-7. [Samples](#Samples)
-    * [sample1](#sample1)
-    * [sample2](#sample2)
-    * [sample3](#sample3)
-    * [sample4](#sample4)
-
 # Intro
 
 This project should show how Java SPI is used to create applications that can be configured by combining different jar
