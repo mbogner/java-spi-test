@@ -33,9 +33,9 @@ Here some words taken from https://en.wikipedia.org/wiki/Service_provider_interf
 
 The project consists of 3 main parts:
 
-- core
-- feature(s)
-- sample(s)
+- [Core](#Core)
+- [Features](#Features)
+- [Samples](#Samples)
 
 ## Core
 
