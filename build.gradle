@@ -1,0 +1,19 @@
+plugins {
+    id 'base'
+}
+
+allprojects {
+    group 'com.openresearch'
+    version '1.0.0-SNAPSHOT'
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+}
+
+wrapper {
+    // https://gradle.org/releases/
+    gradleVersion = "7.3.3"
+    distributionType = Wrapper.DistributionType.ALL
+}

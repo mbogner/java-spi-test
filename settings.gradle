@@ -1,0 +1,19 @@
+rootProject.name = 'java-spi-tests'
+
+include 'core'
+
+include 'feature-api'
+project(":feature-api").projectDir = file("feature/feature-api")
+include 'feature1'
+project(":feature1").projectDir = file("feature/feature1")
+include 'feature2'
+project(":feature2").projectDir = file("feature/feature2")
+
+include 'sample1'
+project(":sample1").projectDir = file("samples/sample1")
+include 'sample2'
+project(":sample2").projectDir = file("samples/sample2")
+include 'sample3'
+project(":sample3").projectDir = file("samples/sample3")
+include 'sample4'
+project(":sample4").projectDir = file("samples/sample4")

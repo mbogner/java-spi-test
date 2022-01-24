@@ -1,0 +1,13 @@
+plugins {
+    id 'application'
+}
+
+dependencies {
+    implementation(project(':core'))
+    implementation(project(':feature1'))
+    implementation(project(':feature2'))
+}
+
+application {
+    mainClass = 'com.openresearch.spi.Starter'
+}
