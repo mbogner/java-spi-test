@@ -1,30 +1,27 @@
 Java SPI Tests
 ==============
 
------------------
 **Table of contents**:
 
 1. [Intro](#Intro)
-2. [Java SPI](#Java SPI)
+2. [SPI](#SPI)
 3. [Modules](#Modules)
 4. [Core](#Core)
-5. [Feature(s)](#Feature(s))
+5. [Features](#Features)
     * [feature-api](#feature-api)
     * [feature-implementations](#feature-implementations)
-7. [Sample(s)](#Sample(s))
+7. [Samples](#Samples)
     * [sample1](#sample1)
     * [sample2](#sample2)
     * [sample3](#sample3)
     * [sample4](#sample4)
-
------------------
 
 # Intro
 
 This project should show how Java SPI is used to create applications that can be configured by combining different jar
 files. It was inspired by https://www.baeldung.com/java-spi.
 
-# Java SPI
+# SPI
 
 Here some words taken from https://en.wikipedia.org/wiki/Service_provider_interface about SPI:
 
@@ -49,7 +46,7 @@ but in theory this can be used to load multiple instances as well.
 The core is not a java application but just a java-library because it isn't run standalone. It should be used in
 combination with features and therefor the samples are defined as applications.
 
-## Feature(s)
+## Features
 
 Features are also simple java-library projects that define their dependencies that are need if the feature is added.
 
@@ -68,7 +65,7 @@ the implementation of the ExchangeRateProvider inside the file. If this file is 
 can't be found by the ServiceLoader. If the content of the file is wrong a ServiceConfigurationError is thrown and the
 application won't start. Intellij even marks the content of the file as an error if the class can't be found.
 
-## Sample(s)
+## Samples
 
 The sample are simple applications without code. They only combine other java-library projects and use the core to have
 a main class.
