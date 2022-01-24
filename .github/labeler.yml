@@ -1,0 +1,23 @@
+legal:
+  - LICENSE.txt
+docs:
+  - README.md
+  - docs/**/*
+projectconfig:
+  - .editorconfig
+  - .github
+  - .run
+  - .gitignore
+  - .foldableview
+gradle-wrapper:
+  - .gradle/**/*
+  - gradlew
+  - gradlew.bat
+gradle:
+  - "**/build.gradle"
+  - "settings.gradle"
+  - "gradle.properties"
+
+samples: samples/**/*
+core: core/**/*
+feature: feature/**/*
