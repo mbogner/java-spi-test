@@ -8,7 +8,7 @@ dependencies {
     // https://mvnrepository.com/artifact/ch.qos.logback/logback-core
     testImplementation 'ch.qos.logback:logback-core:1.4.1'
     // https://mvnrepository.com/artifact/ch.qos.logback/logback-classic
-    testImplementation 'ch.qos.logback:logback-classic:1.2.11'
+    testImplementation 'ch.qos.logback:logback-classic:1.4.1'
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-api
     api 'org.slf4j:slf4j-api:2.0.1'
 
