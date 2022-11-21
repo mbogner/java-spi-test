@@ -6,7 +6,7 @@ dependencies {
     api(project(':feature-api'))
 
     // https://mvnrepository.com/artifact/ch.qos.logback/logback-core
-    testImplementation 'ch.qos.logback:logback-core:1.4.4'
+    testImplementation 'ch.qos.logback:logback-core:1.4.5'
     // https://mvnrepository.com/artifact/ch.qos.logback/logback-classic
     testImplementation 'ch.qos.logback:logback-classic:1.4.4'
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-api
